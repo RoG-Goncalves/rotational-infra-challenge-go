@@ -14,4 +14,4 @@ then,
 *2* - run `docker apply -f myapp.yaml`  
 *3* - run `kubectl expose deployment [app] --type=LoadBalancer --name=my-service`  
 *4* - execute `kubectl get services my-service` and take note of the `External IP`  
-*5* - to test it, open your browser and navigate to `[CLUSTER EXTERNAL IP:3000]`
+*5* - to test it, open your browser and navigate to `CLUSTER_EXTERNAL_IP:3000`
